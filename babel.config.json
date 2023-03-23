@@ -1,0 +1,18 @@
+{
+   "presets" : [
+    
+     ["@babel/preset-env",{"targets": { "node": "0.10.0" }}]
+  
+  
+   ],
+   
+   "plugins": [
+    [
+        "module-resolver",
+        {
+          "root": ["./src"]
+        }
+    ]
+   ]
+
+  }
