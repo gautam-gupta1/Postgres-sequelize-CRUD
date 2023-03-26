@@ -1,10 +1,20 @@
 import express from 'express';
 import UserRouter from 'routes/index.js';
+import sequelize from 'config';
 const app = express();
-
 
 app.use(express.json());
 app.use(express.urlencoded({ extended:true }));
+
+sequelize.sync().then(() => {
+    console.log('Connection established');
+}).catch((err) => {
+    console.log(err);
+});
+
+// COPY userDetails(id,login,password,age,isDeleted) FROM 'C:\Users\Public\newUsers.csv' DELIMITER ',' CSV HEADER;
+
+
 
 app.use('/', UserRouter);
 
