@@ -82,7 +82,8 @@ class UserService {
   static async deleteUserById(id) {
     try {
       const user = await UserService.getUserById(id);
-      user.isDeleted = true;
+      user.isdeleted = true;
+      
       await user.save();
       return user;
     } catch (err) {

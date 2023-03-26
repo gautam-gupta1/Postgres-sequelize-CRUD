@@ -12,5 +12,6 @@ Installation
 Usage
 1. Controllers - Contains all the user controllers/middleware for the crud operations
 2. Routes - Contains all the routes/endpoints
-3. Database - Contains the inmemory userDb Array 
-4. Utility- Contains the error handler class, validation schemas, findUser function.
+3. Models - Contains the model of the userdetails table
+4. Utility- Contains the error handler class, validation schemas.
+5. Services- Contains the database queries to perform CRUD operations on the database.
