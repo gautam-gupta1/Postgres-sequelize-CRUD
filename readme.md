@@ -1,5 +1,5 @@
 Postgres-sequelize-CRUD-
-Create,Get,Update,Delete user stored in a database using REST api's
+Create,Get,Update,Delete User stored in a Postgres database using REST api's with the help of sequelize as an ORM.
 
 Goal:- 
 https://epam-my.sharepoint.com/personal/bhargava_chittapudi_epam_com/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fbhargava%5Fchittapudi%5Fepam%5Fcom%2FDocuments%2FNode%2Ejs%20Training%2FHomework%203%2Epdf&parent=%2Fpersonal%2Fbhargava%5Fchittapudi%5Fepam%5Fcom%2FDocuments%2FNode%2Ejs%20Training&ga=1
